@@ -52,8 +52,26 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="LOGIN\frmFecha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGIN\frmFecha.Designer.cs">
+      <DependentUpon>frmFecha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LOGIN\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGIN\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="LOGIN\frmFecha.resx">
+      <DependentUpon>frmFecha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGIN\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -75,6 +93,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CADmotelerosco\CADmotelerosco.csproj">
+      <Project>{7db7e81c-71cd-44a6-bd62-9ee6e6aa8a50}</Project>
+      <Name>CADmotelerosco</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
