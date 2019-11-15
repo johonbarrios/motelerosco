@@ -1,7 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿
+using motelerosco.LOGIN;
+using System;
 using System.Windows.Forms;
 
 namespace motelerosco
@@ -16,7 +15,7 @@ namespace motelerosco
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new frmLogin());
         }
     }
 }

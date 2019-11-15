@@ -43,6 +43,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.usuarioLabel = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.segundoGroupBox.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -160,6 +161,7 @@
             this.btEntrar.Text = "&Entrar";
             this.btEntrar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btEntrar.UseVisualStyleBackColor = true;
+            this.btEntrar.Click += new System.EventHandler(this.btEntrar_Click);
             // 
             // fechaactualDateTimePicker
             // 
@@ -200,12 +202,28 @@
             this.label3.TabIndex = 458;
             this.label3.Text = "USUARIO:";
             // 
+            // button5
+            // 
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(42)))), ((int)(((byte)(83)))));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.LightGray;
+            this.button5.Location = new System.Drawing.Point(4, 0);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(25, 25);
+            this.button5.TabIndex = 466;
+            this.button5.Text = "X";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // frmFecha
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(699, 422);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.cambiarfeactCheckBox);
             this.Controls.Add(this.feactDateTimePicker);
             this.Controls.Add(this.pictureBox1);
@@ -215,7 +233,9 @@
             this.Controls.Add(this.usuarioLabel);
             this.Controls.Add(this.label3);
             this.Name = "frmFecha";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmFecha";
+            this.Load += new System.EventHandler(this.frmFecha_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.segundoGroupBox.ResumeLayout(false);
             this.segundoGroupBox.PerformLayout();
@@ -242,5 +262,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label usuarioLabel;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button5;
     }
 }

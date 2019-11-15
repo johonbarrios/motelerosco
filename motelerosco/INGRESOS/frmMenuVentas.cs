@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace motelerosco
+namespace motelerosco.INGRESOS
 {
-    public partial class Form1 : Form
+    public partial class frmMenuVentas : Form
     {
-        public Form1()
+        public frmMenuVentas()
         {
             InitializeComponent();
         }
