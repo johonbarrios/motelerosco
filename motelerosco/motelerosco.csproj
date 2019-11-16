@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CLASES\VariablesUso.cs" />
     <Compile Include="INGRESOS\frmMenuVentas.cs">
       <SubType>Form</SubType>
     </Compile>

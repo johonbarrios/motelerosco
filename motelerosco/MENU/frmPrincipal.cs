@@ -1,4 +1,5 @@
 ﻿using CADmotelerosco;
+using motelerosco.CLASES;
 using motelerosco.INGRESOS;
 using motelerosco.LOGIN;
 using System;
@@ -60,11 +61,21 @@ namespace motelerosco.MENU
         #region MediaSubMenu
         private void button2_Click(object sender, EventArgs e)
         {
+            VariablesUso.FeMovimiento = Convert.ToDateTime(fechamtoDateTimePicker.Text);
+            VariablesUso.MiUsuario = UsuarioLogueado.Nombre + " " + UsuarioLogueado.Apellido;
             openChildForm(new frmMenuVentas());
-            //..
-            //your codes
-            //..
             hideSubMenu();
+
+
+
+
+          
+
+            //frmMenuVentas miForm = new frmMenuVentas();
+            //miForm.UsuarioLogueado = UsuarioLogueado;
+            //miForm.FechaMto = Convert.ToDateTime(fechamtoDateTimePicker.Text);
+            //miForm.Show();
+            //hideSubMenu();
         }
 
         private void button3_Click(object sender, EventArgs e)

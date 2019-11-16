@@ -82,7 +82,7 @@
             this.panelSideMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelSideMenu.Location = new System.Drawing.Point(0, 0);
             this.panelSideMenu.Name = "panelSideMenu";
-            this.panelSideMenu.Size = new System.Drawing.Size(170, 691);
+            this.panelSideMenu.Size = new System.Drawing.Size(160, 691);
             this.panelSideMenu.TabIndex = 0;
             // 
             // btnExit
@@ -98,7 +98,7 @@
             this.btnExit.Location = new System.Drawing.Point(0, 717);
             this.btnExit.Name = "btnExit";
             this.btnExit.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.btnExit.Size = new System.Drawing.Size(153, 45);
+            this.btnExit.Size = new System.Drawing.Size(143, 45);
             this.btnExit.TabIndex = 9;
             this.btnExit.Text = "  SALIR";
             this.btnExit.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -119,7 +119,7 @@
             this.btnHelp.Location = new System.Drawing.Point(0, 672);
             this.btnHelp.Name = "btnHelp";
             this.btnHelp.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.btnHelp.Size = new System.Drawing.Size(153, 45);
+            this.btnHelp.Size = new System.Drawing.Size(143, 45);
             this.btnHelp.TabIndex = 8;
             this.btnHelp.Text = "  ESTADISTICAS";
             this.btnHelp.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -136,7 +136,7 @@
             this.panelToolsSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelToolsSubMenu.Location = new System.Drawing.Point(0, 542);
             this.panelToolsSubMenu.Name = "panelToolsSubMenu";
-            this.panelToolsSubMenu.Size = new System.Drawing.Size(153, 130);
+            this.panelToolsSubMenu.Size = new System.Drawing.Size(143, 130);
             this.panelToolsSubMenu.TabIndex = 7;
             // 
             // button10
@@ -150,7 +150,7 @@
             this.button10.Location = new System.Drawing.Point(0, 80);
             this.button10.Name = "button10";
             this.button10.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button10.Size = new System.Drawing.Size(153, 40);
+            this.button10.Size = new System.Drawing.Size(143, 40);
             this.button10.TabIndex = 2;
             this.button10.Text = "Preferences";
             this.button10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -168,7 +168,7 @@
             this.button12.Location = new System.Drawing.Point(0, 40);
             this.button12.Name = "button12";
             this.button12.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button12.Size = new System.Drawing.Size(153, 40);
+            this.button12.Size = new System.Drawing.Size(143, 40);
             this.button12.TabIndex = 1;
             this.button12.Text = "Effects and filters";
             this.button12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -186,7 +186,7 @@
             this.button13.Location = new System.Drawing.Point(0, 0);
             this.button13.Name = "button13";
             this.button13.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button13.Size = new System.Drawing.Size(153, 40);
+            this.button13.Size = new System.Drawing.Size(143, 40);
             this.button13.TabIndex = 0;
             this.button13.Text = "Media converter";
             this.button13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -206,7 +206,7 @@
             this.btnTools.Location = new System.Drawing.Point(0, 497);
             this.btnTools.Name = "btnTools";
             this.btnTools.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.btnTools.Size = new System.Drawing.Size(153, 45);
+            this.btnTools.Size = new System.Drawing.Size(143, 45);
             this.btnTools.TabIndex = 6;
             this.btnTools.Text = "  MAESTRAS";
             this.btnTools.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -227,7 +227,7 @@
             this.btnEqualizer.Location = new System.Drawing.Point(0, 452);
             this.btnEqualizer.Name = "btnEqualizer";
             this.btnEqualizer.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.btnEqualizer.Size = new System.Drawing.Size(153, 45);
+            this.btnEqualizer.Size = new System.Drawing.Size(143, 45);
             this.btnEqualizer.TabIndex = 5;
             this.btnEqualizer.Text = "  CONTABILIDAD";
             this.btnEqualizer.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -245,7 +245,7 @@
             this.panelPlaylistSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelPlaylistSubMenu.Location = new System.Drawing.Point(0, 287);
             this.panelPlaylistSubMenu.Name = "panelPlaylistSubMenu";
-            this.panelPlaylistSubMenu.Size = new System.Drawing.Size(153, 165);
+            this.panelPlaylistSubMenu.Size = new System.Drawing.Size(143, 165);
             this.panelPlaylistSubMenu.TabIndex = 4;
             // 
             // button1
@@ -259,7 +259,7 @@
             this.button1.Location = new System.Drawing.Point(0, 120);
             this.button1.Name = "button1";
             this.button1.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button1.Size = new System.Drawing.Size(153, 40);
+            this.button1.Size = new System.Drawing.Size(143, 40);
             this.button1.TabIndex = 3;
             this.button1.Text = "Export playlist";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -277,7 +277,7 @@
             this.button6.Location = new System.Drawing.Point(0, 80);
             this.button6.Name = "button6";
             this.button6.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button6.Size = new System.Drawing.Size(153, 40);
+            this.button6.Size = new System.Drawing.Size(143, 40);
             this.button6.TabIndex = 2;
             this.button6.Text = "Import playlist";
             this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -295,7 +295,7 @@
             this.button7.Location = new System.Drawing.Point(0, 40);
             this.button7.Name = "button7";
             this.button7.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button7.Size = new System.Drawing.Size(153, 40);
+            this.button7.Size = new System.Drawing.Size(143, 40);
             this.button7.TabIndex = 1;
             this.button7.Text = "Managing playlist";
             this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -313,7 +313,7 @@
             this.button8.Location = new System.Drawing.Point(0, 0);
             this.button8.Name = "button8";
             this.button8.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button8.Size = new System.Drawing.Size(153, 40);
+            this.button8.Size = new System.Drawing.Size(143, 40);
             this.button8.TabIndex = 0;
             this.button8.Text = "New playlist";
             this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -333,7 +333,7 @@
             this.btnPlaylist.Location = new System.Drawing.Point(0, 242);
             this.btnPlaylist.Name = "btnPlaylist";
             this.btnPlaylist.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.btnPlaylist.Size = new System.Drawing.Size(153, 45);
+            this.btnPlaylist.Size = new System.Drawing.Size(143, 45);
             this.btnPlaylist.TabIndex = 3;
             this.btnPlaylist.Text = "  KARDEX";
             this.btnPlaylist.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -350,7 +350,7 @@
             this.panelIngresos.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelIngresos.Location = new System.Drawing.Point(0, 132);
             this.panelIngresos.Name = "panelIngresos";
-            this.panelIngresos.Size = new System.Drawing.Size(153, 110);
+            this.panelIngresos.Size = new System.Drawing.Size(143, 110);
             this.panelIngresos.TabIndex = 2;
             // 
             // button4
@@ -364,7 +364,7 @@
             this.button4.Location = new System.Drawing.Point(0, 70);
             this.button4.Name = "button4";
             this.button4.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button4.Size = new System.Drawing.Size(153, 35);
+            this.button4.Size = new System.Drawing.Size(143, 35);
             this.button4.TabIndex = 2;
             this.button4.Text = "Planilla Ventas";
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -382,7 +382,7 @@
             this.button3.Location = new System.Drawing.Point(0, 35);
             this.button3.Name = "button3";
             this.button3.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button3.Size = new System.Drawing.Size(153, 35);
+            this.button3.Size = new System.Drawing.Size(143, 35);
             this.button3.TabIndex = 1;
             this.button3.Text = "Ventas Externas";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -400,7 +400,7 @@
             this.button2.Location = new System.Drawing.Point(0, 0);
             this.button2.Name = "button2";
             this.button2.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button2.Size = new System.Drawing.Size(153, 35);
+            this.button2.Size = new System.Drawing.Size(143, 35);
             this.button2.TabIndex = 0;
             this.button2.Text = "Ventas Clientes";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -420,7 +420,7 @@
             this.btnMedia.Location = new System.Drawing.Point(0, 92);
             this.btnMedia.Name = "btnMedia";
             this.btnMedia.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.btnMedia.Size = new System.Drawing.Size(153, 40);
+            this.btnMedia.Size = new System.Drawing.Size(143, 40);
             this.btnMedia.TabIndex = 1;
             this.btnMedia.Text = "  INGRESOS";
             this.btnMedia.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -434,7 +434,7 @@
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
             this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(153, 92);
+            this.panelLogo.Size = new System.Drawing.Size(143, 92);
             this.panelLogo.TabIndex = 0;
             this.panelLogo.Paint += new System.Windows.Forms.PaintEventHandler(this.panelLogo_Paint);
             // 
@@ -456,9 +456,9 @@
             this.panelChildForm.Controls.Add(this.usuarioLabel);
             this.panelChildForm.Controls.Add(this.label1);
             this.panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelChildForm.Location = new System.Drawing.Point(170, 0);
+            this.panelChildForm.Location = new System.Drawing.Point(160, 0);
             this.panelChildForm.Name = "panelChildForm";
-            this.panelChildForm.Size = new System.Drawing.Size(1174, 691);
+            this.panelChildForm.Size = new System.Drawing.Size(1184, 691);
             this.panelChildForm.TabIndex = 2;
             this.panelChildForm.Paint += new System.Windows.Forms.PaintEventHandler(this.panelChildForm_Paint);
             // 
@@ -468,7 +468,7 @@
             this.fechamtoDateTimePicker.AutoSize = true;
             this.fechamtoDateTimePicker.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fechamtoDateTimePicker.ForeColor = System.Drawing.Color.FloralWhite;
-            this.fechamtoDateTimePicker.Location = new System.Drawing.Point(913, 8);
+            this.fechamtoDateTimePicker.Location = new System.Drawing.Point(918, 8);
             this.fechamtoDateTimePicker.Name = "fechamtoDateTimePicker";
             this.fechamtoDateTimePicker.Size = new System.Drawing.Size(100, 24);
             this.fechamtoDateTimePicker.TabIndex = 469;
@@ -480,7 +480,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FloralWhite;
-            this.label3.Location = new System.Drawing.Point(747, 8);
+            this.label3.Location = new System.Drawing.Point(752, 8);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(171, 24);
             this.label3.TabIndex = 468;
@@ -492,7 +492,7 @@
             this.usuarioLabel.AutoSize = true;
             this.usuarioLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.usuarioLabel.ForeColor = System.Drawing.Color.FloralWhite;
-            this.usuarioLabel.Location = new System.Drawing.Point(153, 8);
+            this.usuarioLabel.Location = new System.Drawing.Point(158, 8);
             this.usuarioLabel.Name = "usuarioLabel";
             this.usuarioLabel.Size = new System.Drawing.Size(15, 24);
             this.usuarioLabel.TabIndex = 467;
@@ -504,7 +504,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FloralWhite;
-            this.label1.Location = new System.Drawing.Point(71, 8);
+            this.label1.Location = new System.Drawing.Point(76, 8);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(79, 24);
             this.label1.TabIndex = 466;
