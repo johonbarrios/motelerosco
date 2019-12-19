@@ -223,17 +223,7 @@ namespace motelerosco.INGRESOS
                         ett03.ForeColor = Color.Black;
                            
 
-                        //fra03.Visible = true;
-                        //dia03.Visible = true;
-                        //he03.Visible = true;
-                        //hs03.Visible = true;
-                        //tp03.Visible = true;
-                        //vh03.Visible = true;
-                        //vp03.Visible = true;
-                        //vad03.Visible = true;
-                        //vde03.Visible = true;
-                        //vt03.Visible = true;
-                        //imp03.Visible = true;
+                       
                         fra03.Text = Convert.ToString(miEstado.IdFactura);
                         et03.Text = (string)miEstado.IdCliente;
                         CADclientes miCliente = CADclientes.ConsultarCliente_x_IDdocumento_Documento(miEstado.IdDocumento, miEstado.IdCliente);
