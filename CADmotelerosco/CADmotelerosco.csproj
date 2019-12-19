@@ -41,7 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CADclientes.cs" />
+    <Compile Include="CADestadohab.cs" />
+    <Compile Include="CADhospedajes.cs" />
     <Compile Include="CADusuario.cs" />
+    <Compile Include="CADventas.cs" />
     <Compile Include="DSmotelerosco.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
