@@ -49,5 +49,10 @@ namespace motelerosco.LOGIN
             miFormm.Show();
             this.Hide();
         }
+
+        private void frmFecha_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

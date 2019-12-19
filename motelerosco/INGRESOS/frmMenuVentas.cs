@@ -1,14 +1,18 @@
-﻿using System;
-using System.Data.SqlClient;
-using System.Drawing;
-using System.Windows.Forms;
-using motelerosco.CLASES;
-using CADmotelerosco;
-using System.Data;
-using System.IO;
+﻿
 
 namespace motelerosco.INGRESOS
 {
+    using System;
+    using System.Windows.Forms;
+    using System.Data.SqlClient;
+    using System.Drawing;
+    using System.Data;
+    using System.IO;
+    using CADmotelerosco;
+    using motelerosco.CLASES;
+    using motelerosco.INGRESOS;
+   
+
     public partial class frmMenuVentas : Form
     {
         private const string MiConex = @"Data Source=.\MSQLEXPRESS;Initial Catalog=EROSco;Integrated Security=True;";
@@ -977,6 +981,62 @@ namespace motelerosco.INGRESOS
         private void ett01_Click(object sender, EventArgs e)
         {
             showSubMenu(paHab1);
+
+            /*
+            if (et01.Text == string.Empty)
+            {
+                // Nueva Factura Venta 
+                // -------------------
+                String myFecha = DateTime.Now.ToString();
+                int NoVenta = Convert.ToInt32(CADventas.UltimaVenta()) + 1;
+                frmVenta miForm = new frmVenta();
+                miForm.Edicion = false;
+                miForm.IDhabitacion = "01";
+                miForm.FeMovimiento = Convert.ToDateTime(fechamtoDateTimePicker.Value);
+                miForm.FeEntrada = Convert.ToDateTime(myFecha);
+                miForm.IDventa = NoVenta;
+                miForm.UsuarioLogueado = UsuarioLogueado;
+                miForm.ShowDialog();
+            }
+            else
+            {
+                // Editar Factura Venta
+                // --------------------
+                CADventas miVenta01 = CADventas.ConsultarVenta_x_IDventa(Int32.Parse(fra01.Text));
+                frmVenta miForm = new frmVenta();
+
+                if (hss01.Text == string.Empty)
+                {
+                    miForm.TiempoCongelado = false;
+                }
+                else
+                {
+                    miForm.TiempoCongelado = true;
+                    miForm.FeSalida = Convert.ToDateTime(hss01.Text);
+                }
+
+
+                if (forma01.Text == "Crédito")
+                {
+                    miForm.Xforna = "Crédito";
+                }
+                else
+                {
+                    miForm.Xforna = "Contado";
+                }
+
+                miForm.Edicion = true;
+                miForm.Xcliente = Convert.ToString(miVenta01.Documento);
+                miForm.Xvehiculo = Convert.ToString(miVenta01.Nombre);
+                miForm.Ximagen = Convert.ToInt16(miVenta01.Imagen);
+                miForm.IDhabitacion = "01";
+                miForm.FeMovimiento = Convert.ToDateTime(fechamtoDateTimePicker.Value);
+                miForm.FeEntrada = Convert.ToDateTime(hee01.Text);
+                miForm.IDventa = Int32.Parse(fra01.Text);
+                miForm.UsuarioLogueado = UsuarioLogueado;
+                miForm.ShowDialog();
+            }
+            */
         }
 
 
@@ -984,7 +1044,25 @@ namespace motelerosco.INGRESOS
         {
             if (paHab1.Visible == false)
             {
+                
+                if (et01.Text == string.Empty)
+                {
+                    // Nueva Factura Venta 
+                    // -------------------
+                    String myFecha = DateTime.Now.ToString();
+                    int NoVenta = Convert.ToInt32(CADventas.UltimaVenta()) + 1;
+                    frmVentaNormal miForm = new frmVentaNormal();
+                    miForm.Edicion = false;
+                    miForm.IDhabitacion = "01";
+                    miForm.FeMovimiento = Convert.ToDateTime(fechamtoDateTimePicker.Value);
+                    miForm.FeEntrada = Convert.ToDateTime(myFecha);
+                    miForm.IDventa = NoVenta;
+                    miForm.UsuarioLogueado = UsuarioLogueado;
+                    miForm.ShowDialog();
+                }
                 paHab1.Visible = true;
+
+
             }
             else
                 paHab1.Visible = false;
@@ -1003,6 +1081,32 @@ namespace motelerosco.INGRESOS
             }
             else
                 paHab2.Visible = false;
+        }
+
+        private void label17_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ett03_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void primeraFILA_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+
+        private void ett04_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ett05_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

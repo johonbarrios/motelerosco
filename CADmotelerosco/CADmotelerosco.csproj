@@ -44,6 +44,7 @@
     <Compile Include="CADclientes.cs" />
     <Compile Include="CADestadohab.cs" />
     <Compile Include="CADhospedajes.cs" />
+    <Compile Include="CADrecordarme.cs" />
     <Compile Include="CADusuario.cs" />
     <Compile Include="CADventas.cs" />
     <Compile Include="DSmotelerosco.Designer.cs">

@@ -59,11 +59,6 @@
             this.imp01 = new System.Windows.Forms.Button();
             this.et01 = new System.Windows.Forms.Label();
             this.primeraFILA = new System.Windows.Forms.Panel();
-            this.label43 = new System.Windows.Forms.Label();
-            this.ett05 = new System.Windows.Forms.Label();
-            this.ett04 = new System.Windows.Forms.Label();
-            this.ett02 = new System.Windows.Forms.Label();
-            this.ett01 = new System.Windows.Forms.Label();
             this.ett03 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.imp04 = new System.Windows.Forms.Button();
@@ -368,8 +363,13 @@
             this.he11 = new System.Windows.Forms.Label();
             this.fra11 = new System.Windows.Forms.Label();
             this.Foto11 = new System.Windows.Forms.PictureBox();
+            this.label43 = new System.Windows.Forms.Label();
             this.imp05 = new System.Windows.Forms.Button();
             this.et05 = new System.Windows.Forms.Label();
+            this.ett01 = new System.Windows.Forms.Label();
+            this.ett02 = new System.Windows.Forms.Label();
+            this.ett04 = new System.Windows.Forms.Label();
+            this.ett05 = new System.Windows.Forms.Label();
             this.paHab1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Foto01)).BeginInit();
             this.primeraFILA.SuspendLayout();
@@ -731,13 +731,13 @@
             // 
             this.imp01.BackColor = System.Drawing.Color.Transparent;
             this.imp01.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.imp01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.imp01.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.imp01.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.imp01.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.imp01.ForeColor = System.Drawing.Color.White;
             this.imp01.Image = ((System.Drawing.Image)(resources.GetObject("imp01.Image")));
-            this.imp01.Location = new System.Drawing.Point(199, 184);
+            this.imp01.Location = new System.Drawing.Point(195, 188);
             this.imp01.Name = "imp01";
-            this.imp01.Size = new System.Drawing.Size(34, 21);
+            this.imp01.Size = new System.Drawing.Size(33, 23);
             this.imp01.TabIndex = 424;
             this.imp01.UseVisualStyleBackColor = false;
             this.imp01.Visible = false;
@@ -745,9 +745,10 @@
             // et01
             // 
             this.et01.BackColor = System.Drawing.Color.Transparent;
+            this.et01.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.et01.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.et01.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.et01.Location = new System.Drawing.Point(120, 184);
+            this.et01.Location = new System.Drawing.Point(123, 184);
             this.et01.Name = "et01";
             this.et01.Size = new System.Drawing.Size(74, 22);
             this.et01.TabIndex = 413;
@@ -781,77 +782,9 @@
             this.primeraFILA.Controls.Add(this.label4);
             this.primeraFILA.Location = new System.Drawing.Point(2, 33);
             this.primeraFILA.Name = "primeraFILA";
-            this.primeraFILA.Size = new System.Drawing.Size(1172, 207);
+            this.primeraFILA.Size = new System.Drawing.Size(1172, 214);
             this.primeraFILA.TabIndex = 481;
             this.primeraFILA.Paint += new System.Windows.Forms.PaintEventHandler(this.primeraFILA_Paint);
-            // 
-            // label43
-            // 
-            this.label43.BackColor = System.Drawing.Color.Transparent;
-            this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.ForeColor = System.Drawing.Color.Gray;
-            this.label43.Location = new System.Drawing.Point(1000, 184);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(51, 20);
-            this.label43.TabIndex = 501;
-            this.label43.Text = "(ext. 16)";
-            this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // ett05
-            // 
-            this.ett05.BackColor = System.Drawing.Color.Transparent;
-            this.ett05.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ett05.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ett05.ForeColor = System.Drawing.Color.Gray;
-            this.ett05.Location = new System.Drawing.Point(938, 185);
-            this.ett05.Name = "ett05";
-            this.ett05.Size = new System.Drawing.Size(63, 20);
-            this.ett05.TabIndex = 503;
-            this.ett05.Text = "HAB. 05";
-            this.ett05.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.ett05.Click += new System.EventHandler(this.ett05_Click);
-            // 
-            // ett04
-            // 
-            this.ett04.BackColor = System.Drawing.Color.Transparent;
-            this.ett04.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ett04.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ett04.ForeColor = System.Drawing.Color.Gray;
-            this.ett04.Location = new System.Drawing.Point(705, 185);
-            this.ett04.Name = "ett04";
-            this.ett04.Size = new System.Drawing.Size(63, 20);
-            this.ett04.TabIndex = 502;
-            this.ett04.Text = "HAB. 04";
-            this.ett04.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.ett04.Click += new System.EventHandler(this.ett04_Click);
-            // 
-            // ett02
-            // 
-            this.ett02.BackColor = System.Drawing.Color.Transparent;
-            this.ett02.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ett02.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ett02.ForeColor = System.Drawing.Color.Gray;
-            this.ett02.Location = new System.Drawing.Point(239, 185);
-            this.ett02.Name = "ett02";
-            this.ett02.Size = new System.Drawing.Size(63, 20);
-            this.ett02.TabIndex = 501;
-            this.ett02.Text = "HAB. 02";
-            this.ett02.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.ett02.Click += new System.EventHandler(this.ett02_Click);
-            // 
-            // ett01
-            // 
-            this.ett01.BackColor = System.Drawing.Color.Transparent;
-            this.ett01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ett01.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ett01.ForeColor = System.Drawing.Color.Gray;
-            this.ett01.Location = new System.Drawing.Point(6, 185);
-            this.ett01.Name = "ett01";
-            this.ett01.Size = new System.Drawing.Size(63, 20);
-            this.ett01.TabIndex = 500;
-            this.ett01.Text = "HAB. 01";
-            this.ett01.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.ett01.Click += new System.EventHandler(this.ett01_Click);
             // 
             // ett03
             // 
@@ -881,15 +814,15 @@
             // 
             // imp04
             // 
-            this.imp04.BackColor = System.Drawing.Color.Transparent;
+            this.imp04.BackColor = System.Drawing.Color.RoyalBlue;
             this.imp04.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.imp04.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.imp04.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.imp04.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.imp04.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.imp04.ForeColor = System.Drawing.Color.White;
             this.imp04.Image = ((System.Drawing.Image)(resources.GetObject("imp04.Image")));
-            this.imp04.Location = new System.Drawing.Point(898, 184);
+            this.imp04.Location = new System.Drawing.Point(894, 188);
             this.imp04.Name = "imp04";
-            this.imp04.Size = new System.Drawing.Size(34, 21);
+            this.imp04.Size = new System.Drawing.Size(40, 22);
             this.imp04.TabIndex = 497;
             this.imp04.UseVisualStyleBackColor = false;
             this.imp04.Visible = false;
@@ -897,9 +830,10 @@
             // et04
             // 
             this.et04.BackColor = System.Drawing.Color.Transparent;
+            this.et04.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.et04.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.et04.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.et04.Location = new System.Drawing.Point(820, 184);
+            this.et04.Location = new System.Drawing.Point(824, 184);
             this.et04.Name = "et04";
             this.et04.Size = new System.Drawing.Size(74, 22);
             this.et04.TabIndex = 496;
@@ -921,16 +855,16 @@
             // 
             // imp03
             // 
-            this.imp03.BackColor = System.Drawing.Color.Transparent;
+            this.imp03.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.imp03.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.imp03.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.imp03.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.imp03.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.imp03.Image = ((System.Drawing.Image)(resources.GetObject("imp03.Image")));
-            this.imp03.Location = new System.Drawing.Point(665, 184);
+            this.imp03.Location = new System.Drawing.Point(661, 184);
             this.imp03.Margin = new System.Windows.Forms.Padding(0);
             this.imp03.Name = "imp03";
-            this.imp03.Size = new System.Drawing.Size(34, 21);
+            this.imp03.Size = new System.Drawing.Size(34, 27);
             this.imp03.TabIndex = 494;
             this.imp03.UseVisualStyleBackColor = false;
             // 
@@ -940,7 +874,7 @@
             this.et03.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.et03.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.et03.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.et03.Location = new System.Drawing.Point(587, 184);
+            this.et03.Location = new System.Drawing.Point(586, 184);
             this.et03.Name = "et03";
             this.et03.Size = new System.Drawing.Size(74, 22);
             this.et03.TabIndex = 493;
@@ -1644,15 +1578,15 @@
             // 
             // imp02
             // 
-            this.imp02.BackColor = System.Drawing.Color.Transparent;
+            this.imp02.BackColor = System.Drawing.Color.RoyalBlue;
             this.imp02.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.imp02.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.imp02.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.imp02.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.imp02.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.imp02.ForeColor = System.Drawing.Color.White;
             this.imp02.Image = ((System.Drawing.Image)(resources.GetObject("imp02.Image")));
-            this.imp02.Location = new System.Drawing.Point(432, 184);
+            this.imp02.Location = new System.Drawing.Point(428, 188);
             this.imp02.Name = "imp02";
-            this.imp02.Size = new System.Drawing.Size(34, 21);
+            this.imp02.Size = new System.Drawing.Size(40, 22);
             this.imp02.TabIndex = 484;
             this.imp02.UseVisualStyleBackColor = false;
             this.imp02.Visible = false;
@@ -1660,9 +1594,10 @@
             // et02
             // 
             this.et02.BackColor = System.Drawing.Color.Transparent;
+            this.et02.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.et02.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.et02.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.et02.Location = new System.Drawing.Point(354, 184);
+            this.et02.Location = new System.Drawing.Point(358, 184);
             this.et02.Name = "et02";
             this.et02.Size = new System.Drawing.Size(74, 22);
             this.et02.TabIndex = 482;
@@ -4844,17 +4779,29 @@
             this.Foto11.TabIndex = 416;
             this.Foto11.TabStop = false;
             // 
+            // label43
+            // 
+            this.label43.BackColor = System.Drawing.Color.Transparent;
+            this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label43.ForeColor = System.Drawing.Color.Gray;
+            this.label43.Location = new System.Drawing.Point(1000, 184);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(51, 20);
+            this.label43.TabIndex = 501;
+            this.label43.Text = "(ext. 16)";
+            this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // imp05
             // 
-            this.imp05.BackColor = System.Drawing.Color.Transparent;
+            this.imp05.BackColor = System.Drawing.Color.RoyalBlue;
             this.imp05.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.imp05.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.imp05.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.imp05.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.imp05.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.imp05.ForeColor = System.Drawing.Color.White;
             this.imp05.Image = ((System.Drawing.Image)(resources.GetObject("imp05.Image")));
-            this.imp05.Location = new System.Drawing.Point(1133, 215);
+            this.imp05.Location = new System.Drawing.Point(1129, 221);
             this.imp05.Name = "imp05";
-            this.imp05.Size = new System.Drawing.Size(34, 21);
+            this.imp05.Size = new System.Drawing.Size(40, 22);
             this.imp05.TabIndex = 500;
             this.imp05.UseVisualStyleBackColor = false;
             this.imp05.Visible = false;
@@ -4862,13 +4809,66 @@
             // et05
             // 
             this.et05.BackColor = System.Drawing.Color.Transparent;
+            this.et05.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.et05.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.et05.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.et05.Location = new System.Drawing.Point(1055, 216);
+            this.et05.Location = new System.Drawing.Point(1059, 184);
             this.et05.Name = "et05";
             this.et05.Size = new System.Drawing.Size(74, 22);
             this.et05.TabIndex = 499;
             this.et05.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // ett01
+            // 
+            this.ett01.BackColor = System.Drawing.Color.Transparent;
+            this.ett01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ett01.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ett01.ForeColor = System.Drawing.Color.Gray;
+            this.ett01.Location = new System.Drawing.Point(6, 185);
+            this.ett01.Name = "ett01";
+            this.ett01.Size = new System.Drawing.Size(63, 20);
+            this.ett01.TabIndex = 500;
+            this.ett01.Text = "HAB. 01";
+            this.ett01.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // ett02
+            // 
+            this.ett02.BackColor = System.Drawing.Color.Transparent;
+            this.ett02.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ett02.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ett02.ForeColor = System.Drawing.Color.Gray;
+            this.ett02.Location = new System.Drawing.Point(239, 185);
+            this.ett02.Name = "ett02";
+            this.ett02.Size = new System.Drawing.Size(63, 20);
+            this.ett02.TabIndex = 501;
+            this.ett02.Text = "HAB. 02";
+            this.ett02.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // ett04
+            // 
+            this.ett04.BackColor = System.Drawing.Color.Transparent;
+            this.ett04.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ett04.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ett04.ForeColor = System.Drawing.Color.Gray;
+            this.ett04.Location = new System.Drawing.Point(705, 185);
+            this.ett04.Name = "ett04";
+            this.ett04.Size = new System.Drawing.Size(63, 20);
+            this.ett04.TabIndex = 502;
+            this.ett04.Text = "HAB. 04";
+            this.ett04.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // ett05
+            // 
+            this.ett05.BackColor = System.Drawing.Color.Transparent;
+            this.ett05.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ett05.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ett05.ForeColor = System.Drawing.Color.Gray;
+            this.ett05.Location = new System.Drawing.Point(938, 185);
+            this.ett05.Name = "ett05";
+            this.ett05.Size = new System.Drawing.Size(63, 20);
+            this.ett05.TabIndex = 503;
+            this.ett05.Text = "HAB. 05";
+            this.ett05.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // frmMenuVentas
             // 

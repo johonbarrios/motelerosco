@@ -55,6 +55,7 @@
             this.recordarmeCheckBox.Text = "Recordarme";
             this.recordarmeCheckBox.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.recordarmeCheckBox.UseVisualStyleBackColor = true;
+            this.recordarmeCheckBox.CheckedChanged += new System.EventHandler(this.recordarmeCheckBox_CheckedChanged);
             // 
             // btnCancelar
             // 
@@ -154,6 +155,7 @@
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LOGIN";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmLogin_FormClosing);
             this.Load += new System.EventHandler(this.frmLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();

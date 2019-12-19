@@ -53,6 +53,12 @@
     <Compile Include="INGRESOS\frmMenuVentas.Designer.cs">
       <DependentUpon>frmMenuVentas.cs</DependentUpon>
     </Compile>
+    <Compile Include="INGRESOS\frmVentaNormal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="INGRESOS\frmVentaNormal.Designer.cs">
+      <DependentUpon>frmVentaNormal.cs</DependentUpon>
+    </Compile>
     <Compile Include="LOGIN\frmFecha.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="INGRESOS\frmMenuVentas.resx">
       <DependentUpon>frmMenuVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="INGRESOS\frmVentaNormal.resx">
+      <DependentUpon>frmVentaNormal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LOGIN\frmFecha.resx">
       <DependentUpon>frmFecha.cs</DependentUpon>

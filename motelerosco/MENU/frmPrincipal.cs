@@ -1,13 +1,11 @@
-﻿using CADmotelerosco;
-using motelerosco.CLASES;
-using motelerosco.INGRESOS;
-using motelerosco.LOGIN;
-using System;
-using System.Windows.Forms;
-
-namespace motelerosco.MENU
-
+﻿namespace motelerosco.MENU
 {
+    using CADmotelerosco;
+    using motelerosco.CLASES;
+    using motelerosco.INGRESOS;
+    using motelerosco.LOGIN;
+    using System;
+    using System.Windows.Forms;
     public partial class frmPrincipal : Form
     {
         private DateTime fechaMto;
@@ -231,6 +229,11 @@ namespace motelerosco.MENU
         private void panelChildForm_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void frmPrincipal_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

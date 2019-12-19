@@ -235,6 +235,7 @@
             this.Name = "frmFecha";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmFecha";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmFecha_FormClosing);
             this.Load += new System.EventHandler(this.frmFecha_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.segundoGroupBox.ResumeLayout(false);

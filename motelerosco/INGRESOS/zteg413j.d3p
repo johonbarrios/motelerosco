@@ -59,18 +59,14 @@
             this.imp01 = new System.Windows.Forms.Button();
             this.et01 = new System.Windows.Forms.Label();
             this.primeraFILA = new System.Windows.Forms.Panel();
-            this.label43 = new System.Windows.Forms.Label();
-            this.ett05 = new System.Windows.Forms.Label();
-            this.ett04 = new System.Windows.Forms.Label();
-            this.ett02 = new System.Windows.Forms.Label();
-            this.ett01 = new System.Windows.Forms.Label();
-            this.ett03 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.imp04 = new System.Windows.Forms.Button();
             this.et04 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.imp03 = new System.Windows.Forms.Button();
             this.et03 = new System.Windows.Forms.Label();
+            this.ett05 = new System.Windows.Forms.Button();
+            this.ett04 = new System.Windows.Forms.Button();
             this.paHab5 = new System.Windows.Forms.Panel();
             this.fmto05 = new System.Windows.Forms.Label();
             this.forma05 = new System.Windows.Forms.Label();
@@ -125,6 +121,7 @@
             this.he03 = new System.Windows.Forms.Label();
             this.fra03 = new System.Windows.Forms.Label();
             this.Foto03 = new System.Windows.Forms.PictureBox();
+            this.ett02 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.imp02 = new System.Windows.Forms.Button();
             this.et02 = new System.Windows.Forms.Label();
@@ -146,6 +143,7 @@
             this.he02 = new System.Windows.Forms.Label();
             this.fra02 = new System.Windows.Forms.Label();
             this.Foto02 = new System.Windows.Forms.PictureBox();
+            this.ett01 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.imp10 = new System.Windows.Forms.Button();
@@ -368,8 +366,10 @@
             this.he11 = new System.Windows.Forms.Label();
             this.fra11 = new System.Windows.Forms.Label();
             this.Foto11 = new System.Windows.Forms.PictureBox();
+            this.label43 = new System.Windows.Forms.Label();
             this.imp05 = new System.Windows.Forms.Button();
             this.et05 = new System.Windows.Forms.Label();
+            this.ett03 = new System.Windows.Forms.Label();
             this.paHab1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Foto01)).BeginInit();
             this.primeraFILA.SuspendLayout();
@@ -505,7 +505,7 @@
             this.paHab1.Controls.Add(this.Foto01);
             this.paHab1.Location = new System.Drawing.Point(6, 6);
             this.paHab1.Name = "paHab1";
-            this.paHab1.Size = new System.Drawing.Size(229, 175);
+            this.paHab1.Size = new System.Drawing.Size(229, 180);
             this.paHab1.TabIndex = 480;
             this.paHab1.Visible = false;
             // 
@@ -526,7 +526,7 @@
             this.forma01.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.forma01.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.forma01.ForeColor = System.Drawing.Color.Red;
-            this.forma01.Location = new System.Drawing.Point(94, 3);
+            this.forma01.Location = new System.Drawing.Point(96, 5);
             this.forma01.Name = "forma01";
             this.forma01.Size = new System.Drawing.Size(60, 16);
             this.forma01.TabIndex = 431;
@@ -586,7 +586,7 @@
             this.dia01.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dia01.ForeColor = System.Drawing.Color.Black;
             this.dia01.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.dia01.Location = new System.Drawing.Point(159, 19);
+            this.dia01.Location = new System.Drawing.Point(159, 22);
             this.dia01.Name = "dia01";
             this.dia01.Size = new System.Drawing.Size(66, 16);
             this.dia01.TabIndex = 425;
@@ -598,7 +598,7 @@
             this.vde01.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.vde01.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vde01.ForeColor = System.Drawing.Color.Black;
-            this.vde01.Location = new System.Drawing.Point(159, 138);
+            this.vde01.Location = new System.Drawing.Point(159, 141);
             this.vde01.Name = "vde01";
             this.vde01.Size = new System.Drawing.Size(66, 16);
             this.vde01.TabIndex = 423;
@@ -610,7 +610,7 @@
             this.vad01.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.vad01.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vad01.ForeColor = System.Drawing.Color.Black;
-            this.vad01.Location = new System.Drawing.Point(159, 121);
+            this.vad01.Location = new System.Drawing.Point(159, 124);
             this.vad01.Name = "vad01";
             this.vad01.Size = new System.Drawing.Size(66, 16);
             this.vad01.TabIndex = 422;
@@ -622,7 +622,7 @@
             this.vt01.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.vt01.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vt01.ForeColor = System.Drawing.Color.Black;
-            this.vt01.Location = new System.Drawing.Point(159, 155);
+            this.vt01.Location = new System.Drawing.Point(159, 158);
             this.vt01.Name = "vt01";
             this.vt01.Size = new System.Drawing.Size(66, 16);
             this.vt01.TabIndex = 421;
@@ -634,7 +634,7 @@
             this.vp01.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.vp01.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vp01.ForeColor = System.Drawing.Color.Black;
-            this.vp01.Location = new System.Drawing.Point(159, 104);
+            this.vp01.Location = new System.Drawing.Point(159, 107);
             this.vp01.Name = "vp01";
             this.vp01.Size = new System.Drawing.Size(66, 16);
             this.vp01.TabIndex = 420;
@@ -646,7 +646,7 @@
             this.vh01.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.vh01.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vh01.ForeColor = System.Drawing.Color.Black;
-            this.vh01.Location = new System.Drawing.Point(159, 87);
+            this.vh01.Location = new System.Drawing.Point(159, 90);
             this.vh01.Name = "vh01";
             this.vh01.Size = new System.Drawing.Size(66, 16);
             this.vh01.TabIndex = 419;
@@ -659,7 +659,7 @@
             this.tp01.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tp01.ForeColor = System.Drawing.Color.Black;
             this.tp01.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.tp01.Location = new System.Drawing.Point(159, 70);
+            this.tp01.Location = new System.Drawing.Point(159, 73);
             this.tp01.Name = "tp01";
             this.tp01.Size = new System.Drawing.Size(66, 16);
             this.tp01.TabIndex = 418;
@@ -671,7 +671,7 @@
             this.hs01.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.hs01.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hs01.ForeColor = System.Drawing.Color.Black;
-            this.hs01.Location = new System.Drawing.Point(159, 53);
+            this.hs01.Location = new System.Drawing.Point(159, 56);
             this.hs01.Name = "hs01";
             this.hs01.Size = new System.Drawing.Size(66, 16);
             this.hs01.TabIndex = 417;
@@ -683,7 +683,7 @@
             this.he01.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.he01.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.he01.ForeColor = System.Drawing.Color.Black;
-            this.he01.Location = new System.Drawing.Point(159, 36);
+            this.he01.Location = new System.Drawing.Point(159, 39);
             this.he01.Name = "he01";
             this.he01.Size = new System.Drawing.Size(66, 16);
             this.he01.TabIndex = 416;
@@ -695,7 +695,7 @@
             this.fra01.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.fra01.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fra01.ForeColor = System.Drawing.Color.Black;
-            this.fra01.Location = new System.Drawing.Point(159, 2);
+            this.fra01.Location = new System.Drawing.Point(159, 5);
             this.fra01.Name = "fra01";
             this.fra01.Size = new System.Drawing.Size(66, 16);
             this.fra01.TabIndex = 415;
@@ -707,7 +707,7 @@
             this.Foto01.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.Foto01.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Foto01.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Foto01.Location = new System.Drawing.Point(3, 2);
+            this.Foto01.Location = new System.Drawing.Point(3, 5);
             this.Foto01.Name = "Foto01";
             this.Foto01.Size = new System.Drawing.Size(153, 169);
             this.Foto01.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -717,11 +717,11 @@
             // label4
             // 
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Gray;
-            this.label4.Location = new System.Drawing.Point(67, 185);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Black;
+            this.label4.Location = new System.Drawing.Point(80, 191);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(51, 20);
+            this.label4.Size = new System.Drawing.Size(45, 17);
             this.label4.TabIndex = 426;
             this.label4.Text = "(ext. 12)";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -731,13 +731,13 @@
             // 
             this.imp01.BackColor = System.Drawing.Color.Transparent;
             this.imp01.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.imp01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.imp01.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.imp01.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.imp01.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.imp01.ForeColor = System.Drawing.Color.White;
             this.imp01.Image = ((System.Drawing.Image)(resources.GetObject("imp01.Image")));
-            this.imp01.Location = new System.Drawing.Point(199, 184);
+            this.imp01.Location = new System.Drawing.Point(195, 188);
             this.imp01.Name = "imp01";
-            this.imp01.Size = new System.Drawing.Size(34, 21);
+            this.imp01.Size = new System.Drawing.Size(33, 23);
             this.imp01.TabIndex = 424;
             this.imp01.UseVisualStyleBackColor = false;
             this.imp01.Visible = false;
@@ -745,22 +745,18 @@
             // et01
             // 
             this.et01.BackColor = System.Drawing.Color.Transparent;
+            this.et01.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.et01.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.et01.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.et01.Location = new System.Drawing.Point(120, 184);
+            this.et01.Location = new System.Drawing.Point(123, 188);
             this.et01.Name = "et01";
-            this.et01.Size = new System.Drawing.Size(74, 22);
+            this.et01.Size = new System.Drawing.Size(70, 22);
             this.et01.TabIndex = 413;
             this.et01.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.et01.Visible = false;
             // 
             // primeraFILA
             // 
-            this.primeraFILA.Controls.Add(this.label43);
-            this.primeraFILA.Controls.Add(this.ett05);
-            this.primeraFILA.Controls.Add(this.ett04);
-            this.primeraFILA.Controls.Add(this.ett02);
-            this.primeraFILA.Controls.Add(this.ett01);
             this.primeraFILA.Controls.Add(this.ett03);
             this.primeraFILA.Controls.Add(this.label30);
             this.primeraFILA.Controls.Add(this.imp04);
@@ -768,128 +764,49 @@
             this.primeraFILA.Controls.Add(this.label17);
             this.primeraFILA.Controls.Add(this.imp03);
             this.primeraFILA.Controls.Add(this.et03);
+            this.primeraFILA.Controls.Add(this.ett05);
+            this.primeraFILA.Controls.Add(this.ett04);
             this.primeraFILA.Controls.Add(this.paHab5);
             this.primeraFILA.Controls.Add(this.paHab4);
             this.primeraFILA.Controls.Add(this.paHab3);
+            this.primeraFILA.Controls.Add(this.ett02);
             this.primeraFILA.Controls.Add(this.label5);
             this.primeraFILA.Controls.Add(this.imp02);
             this.primeraFILA.Controls.Add(this.et02);
             this.primeraFILA.Controls.Add(this.paHab2);
+            this.primeraFILA.Controls.Add(this.ett01);
             this.primeraFILA.Controls.Add(this.paHab1);
             this.primeraFILA.Controls.Add(this.imp01);
             this.primeraFILA.Controls.Add(this.et01);
             this.primeraFILA.Controls.Add(this.label4);
             this.primeraFILA.Location = new System.Drawing.Point(2, 33);
             this.primeraFILA.Name = "primeraFILA";
-            this.primeraFILA.Size = new System.Drawing.Size(1172, 207);
+            this.primeraFILA.Size = new System.Drawing.Size(1172, 214);
             this.primeraFILA.TabIndex = 481;
-            this.primeraFILA.Paint += new System.Windows.Forms.PaintEventHandler(this.primeraFILA_Paint);
-            // 
-            // label43
-            // 
-            this.label43.BackColor = System.Drawing.Color.Transparent;
-            this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.ForeColor = System.Drawing.Color.Gray;
-            this.label43.Location = new System.Drawing.Point(1000, 184);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(51, 20);
-            this.label43.TabIndex = 501;
-            this.label43.Text = "(ext. 16)";
-            this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // ett05
-            // 
-            this.ett05.BackColor = System.Drawing.Color.Transparent;
-            this.ett05.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ett05.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ett05.ForeColor = System.Drawing.Color.Gray;
-            this.ett05.Location = new System.Drawing.Point(938, 185);
-            this.ett05.Name = "ett05";
-            this.ett05.Size = new System.Drawing.Size(63, 20);
-            this.ett05.TabIndex = 503;
-            this.ett05.Text = "HAB. 05";
-            this.ett05.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.ett05.Click += new System.EventHandler(this.ett05_Click);
-            // 
-            // ett04
-            // 
-            this.ett04.BackColor = System.Drawing.Color.Transparent;
-            this.ett04.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ett04.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ett04.ForeColor = System.Drawing.Color.Gray;
-            this.ett04.Location = new System.Drawing.Point(705, 185);
-            this.ett04.Name = "ett04";
-            this.ett04.Size = new System.Drawing.Size(63, 20);
-            this.ett04.TabIndex = 502;
-            this.ett04.Text = "HAB. 04";
-            this.ett04.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.ett04.Click += new System.EventHandler(this.ett04_Click);
-            // 
-            // ett02
-            // 
-            this.ett02.BackColor = System.Drawing.Color.Transparent;
-            this.ett02.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ett02.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ett02.ForeColor = System.Drawing.Color.Gray;
-            this.ett02.Location = new System.Drawing.Point(239, 185);
-            this.ett02.Name = "ett02";
-            this.ett02.Size = new System.Drawing.Size(63, 20);
-            this.ett02.TabIndex = 501;
-            this.ett02.Text = "HAB. 02";
-            this.ett02.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.ett02.Click += new System.EventHandler(this.ett02_Click);
-            // 
-            // ett01
-            // 
-            this.ett01.BackColor = System.Drawing.Color.Transparent;
-            this.ett01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ett01.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ett01.ForeColor = System.Drawing.Color.Gray;
-            this.ett01.Location = new System.Drawing.Point(6, 185);
-            this.ett01.Name = "ett01";
-            this.ett01.Size = new System.Drawing.Size(63, 20);
-            this.ett01.TabIndex = 500;
-            this.ett01.Text = "HAB. 01";
-            this.ett01.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.ett01.Click += new System.EventHandler(this.ett01_Click);
-            // 
-            // ett03
-            // 
-            this.ett03.BackColor = System.Drawing.Color.Transparent;
-            this.ett03.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ett03.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ett03.ForeColor = System.Drawing.Color.Gray;
-            this.ett03.Location = new System.Drawing.Point(472, 185);
-            this.ett03.Name = "ett03";
-            this.ett03.Size = new System.Drawing.Size(63, 20);
-            this.ett03.TabIndex = 499;
-            this.ett03.Text = "HAB. 03";
-            this.ett03.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.ett03.Click += new System.EventHandler(this.ett03_Click);
             // 
             // label30
             // 
             this.label30.BackColor = System.Drawing.Color.Transparent;
-            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.ForeColor = System.Drawing.Color.Gray;
-            this.label30.Location = new System.Drawing.Point(767, 185);
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.ForeColor = System.Drawing.Color.Black;
+            this.label30.Location = new System.Drawing.Point(774, 191);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(51, 20);
+            this.label30.Size = new System.Drawing.Size(45, 17);
             this.label30.TabIndex = 498;
             this.label30.Text = "(ext. 15)";
             this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // imp04
             // 
-            this.imp04.BackColor = System.Drawing.Color.Transparent;
+            this.imp04.BackColor = System.Drawing.Color.RoyalBlue;
             this.imp04.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.imp04.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.imp04.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.imp04.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.imp04.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.imp04.ForeColor = System.Drawing.Color.White;
             this.imp04.Image = ((System.Drawing.Image)(resources.GetObject("imp04.Image")));
-            this.imp04.Location = new System.Drawing.Point(898, 184);
+            this.imp04.Location = new System.Drawing.Point(894, 188);
             this.imp04.Name = "imp04";
-            this.imp04.Size = new System.Drawing.Size(34, 21);
+            this.imp04.Size = new System.Drawing.Size(40, 22);
             this.imp04.TabIndex = 497;
             this.imp04.UseVisualStyleBackColor = false;
             this.imp04.Visible = false;
@@ -897,11 +814,12 @@
             // et04
             // 
             this.et04.BackColor = System.Drawing.Color.Transparent;
+            this.et04.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.et04.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.et04.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.et04.Location = new System.Drawing.Point(820, 184);
+            this.et04.Location = new System.Drawing.Point(824, 188);
             this.et04.Name = "et04";
-            this.et04.Size = new System.Drawing.Size(74, 22);
+            this.et04.Size = new System.Drawing.Size(69, 22);
             this.et04.TabIndex = 496;
             this.et04.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -909,11 +827,11 @@
             // 
             this.label17.BackColor = System.Drawing.Color.Transparent;
             this.label17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.Gray;
-            this.label17.Location = new System.Drawing.Point(535, 185);
+            this.label17.Location = new System.Drawing.Point(541, 188);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(51, 20);
+            this.label17.Size = new System.Drawing.Size(45, 17);
             this.label17.TabIndex = 495;
             this.label17.Text = "(ext. 14)";
             this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -921,16 +839,16 @@
             // 
             // imp03
             // 
-            this.imp03.BackColor = System.Drawing.Color.Transparent;
+            this.imp03.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.imp03.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.imp03.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.imp03.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.imp03.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.imp03.Image = ((System.Drawing.Image)(resources.GetObject("imp03.Image")));
-            this.imp03.Location = new System.Drawing.Point(665, 184);
+            this.imp03.Location = new System.Drawing.Point(661, 184);
             this.imp03.Margin = new System.Windows.Forms.Padding(0);
             this.imp03.Name = "imp03";
-            this.imp03.Size = new System.Drawing.Size(34, 21);
+            this.imp03.Size = new System.Drawing.Size(34, 27);
             this.imp03.TabIndex = 494;
             this.imp03.UseVisualStyleBackColor = false;
             // 
@@ -940,11 +858,49 @@
             this.et03.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.et03.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.et03.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.et03.Location = new System.Drawing.Point(587, 184);
+            this.et03.Location = new System.Drawing.Point(586, 184);
             this.et03.Name = "et03";
             this.et03.Size = new System.Drawing.Size(74, 22);
             this.et03.TabIndex = 493;
             this.et03.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // ett05
+            // 
+            this.ett05.FlatAppearance.BorderSize = 0;
+            this.ett05.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(21)))), ((int)(((byte)(32)))));
+            this.ett05.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(22)))), ((int)(((byte)(34)))));
+            this.ett05.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ett05.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ett05.ForeColor = System.Drawing.Color.Gray;
+            this.ett05.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ett05.Location = new System.Drawing.Point(938, 188);
+            this.ett05.Name = "ett05";
+            this.ett05.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.ett05.Size = new System.Drawing.Size(77, 23);
+            this.ett05.TabIndex = 492;
+            this.ett05.Text = "HAB. 05";
+            this.ett05.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ett05.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.ett05.UseVisualStyleBackColor = true;
+            // 
+            // ett04
+            // 
+            this.ett04.FlatAppearance.BorderSize = 0;
+            this.ett04.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(21)))), ((int)(((byte)(32)))));
+            this.ett04.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(22)))), ((int)(((byte)(34)))));
+            this.ett04.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ett04.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ett04.ForeColor = System.Drawing.Color.Gray;
+            this.ett04.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ett04.Location = new System.Drawing.Point(705, 188);
+            this.ett04.Name = "ett04";
+            this.ett04.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.ett04.Size = new System.Drawing.Size(77, 23);
+            this.ett04.TabIndex = 491;
+            this.ett04.Text = "HAB. 04";
+            this.ett04.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ett04.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.ett04.UseVisualStyleBackColor = true;
             // 
             // paHab5
             // 
@@ -968,7 +924,7 @@
             this.paHab5.Controls.Add(this.Foto05);
             this.paHab5.Location = new System.Drawing.Point(938, 6);
             this.paHab5.Name = "paHab5";
-            this.paHab5.Size = new System.Drawing.Size(229, 175);
+            this.paHab5.Size = new System.Drawing.Size(229, 180);
             this.paHab5.TabIndex = 489;
             this.paHab5.Visible = false;
             // 
@@ -989,7 +945,7 @@
             this.forma05.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.forma05.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.forma05.ForeColor = System.Drawing.Color.Red;
-            this.forma05.Location = new System.Drawing.Point(94, 3);
+            this.forma05.Location = new System.Drawing.Point(96, 5);
             this.forma05.Name = "forma05";
             this.forma05.Size = new System.Drawing.Size(60, 16);
             this.forma05.TabIndex = 429;
@@ -1049,7 +1005,7 @@
             this.dia05.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dia05.ForeColor = System.Drawing.Color.Black;
             this.dia05.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.dia05.Location = new System.Drawing.Point(159, 19);
+            this.dia05.Location = new System.Drawing.Point(159, 22);
             this.dia05.Name = "dia05";
             this.dia05.Size = new System.Drawing.Size(66, 16);
             this.dia05.TabIndex = 424;
@@ -1061,7 +1017,7 @@
             this.vde05.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.vde05.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vde05.ForeColor = System.Drawing.Color.Black;
-            this.vde05.Location = new System.Drawing.Point(159, 138);
+            this.vde05.Location = new System.Drawing.Point(159, 141);
             this.vde05.Name = "vde05";
             this.vde05.Size = new System.Drawing.Size(66, 16);
             this.vde05.TabIndex = 423;
@@ -1073,7 +1029,7 @@
             this.vad05.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.vad05.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vad05.ForeColor = System.Drawing.Color.Black;
-            this.vad05.Location = new System.Drawing.Point(159, 121);
+            this.vad05.Location = new System.Drawing.Point(159, 124);
             this.vad05.Name = "vad05";
             this.vad05.Size = new System.Drawing.Size(66, 16);
             this.vad05.TabIndex = 422;
@@ -1085,7 +1041,7 @@
             this.vt05.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.vt05.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vt05.ForeColor = System.Drawing.Color.Black;
-            this.vt05.Location = new System.Drawing.Point(159, 155);
+            this.vt05.Location = new System.Drawing.Point(159, 158);
             this.vt05.Name = "vt05";
             this.vt05.Size = new System.Drawing.Size(66, 16);
             this.vt05.TabIndex = 421;
@@ -1097,7 +1053,7 @@
             this.vp05.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.vp05.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vp05.ForeColor = System.Drawing.Color.Black;
-            this.vp05.Location = new System.Drawing.Point(159, 104);
+            this.vp05.Location = new System.Drawing.Point(159, 107);
             this.vp05.Name = "vp05";
             this.vp05.Size = new System.Drawing.Size(66, 16);
             this.vp05.TabIndex = 420;
@@ -1109,7 +1065,7 @@
             this.vh05.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.vh05.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vh05.ForeColor = System.Drawing.Color.Black;
-            this.vh05.Location = new System.Drawing.Point(159, 87);
+            this.vh05.Location = new System.Drawing.Point(159, 90);
             this.vh05.Name = "vh05";
             this.vh05.Size = new System.Drawing.Size(66, 16);
             this.vh05.TabIndex = 419;
@@ -1122,7 +1078,7 @@
             this.tp05.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tp05.ForeColor = System.Drawing.Color.Black;
             this.tp05.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.tp05.Location = new System.Drawing.Point(159, 70);
+            this.tp05.Location = new System.Drawing.Point(159, 73);
             this.tp05.Name = "tp05";
             this.tp05.Size = new System.Drawing.Size(66, 16);
             this.tp05.TabIndex = 418;
@@ -1134,7 +1090,7 @@
             this.hs05.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.hs05.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hs05.ForeColor = System.Drawing.Color.Black;
-            this.hs05.Location = new System.Drawing.Point(159, 53);
+            this.hs05.Location = new System.Drawing.Point(159, 56);
             this.hs05.Name = "hs05";
             this.hs05.Size = new System.Drawing.Size(66, 16);
             this.hs05.TabIndex = 417;
@@ -1146,7 +1102,7 @@
             this.he05.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.he05.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.he05.ForeColor = System.Drawing.Color.Black;
-            this.he05.Location = new System.Drawing.Point(159, 36);
+            this.he05.Location = new System.Drawing.Point(159, 39);
             this.he05.Name = "he05";
             this.he05.Size = new System.Drawing.Size(66, 16);
             this.he05.TabIndex = 416;
@@ -1158,7 +1114,7 @@
             this.fra05.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.fra05.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fra05.ForeColor = System.Drawing.Color.Black;
-            this.fra05.Location = new System.Drawing.Point(159, 2);
+            this.fra05.Location = new System.Drawing.Point(159, 5);
             this.fra05.Name = "fra05";
             this.fra05.Size = new System.Drawing.Size(66, 16);
             this.fra05.TabIndex = 415;
@@ -1170,7 +1126,7 @@
             this.Foto05.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.Foto05.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Foto05.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Foto05.Location = new System.Drawing.Point(3, 2);
+            this.Foto05.Location = new System.Drawing.Point(3, 5);
             this.Foto05.Name = "Foto05";
             this.Foto05.Size = new System.Drawing.Size(153, 169);
             this.Foto05.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1199,7 +1155,7 @@
             this.paHab4.Controls.Add(this.Foto04);
             this.paHab4.Location = new System.Drawing.Point(705, 6);
             this.paHab4.Name = "paHab4";
-            this.paHab4.Size = new System.Drawing.Size(229, 175);
+            this.paHab4.Size = new System.Drawing.Size(229, 180);
             this.paHab4.TabIndex = 488;
             this.paHab4.Visible = false;
             // 
@@ -1220,7 +1176,7 @@
             this.forma04.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.forma04.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.forma04.ForeColor = System.Drawing.Color.Red;
-            this.forma04.Location = new System.Drawing.Point(94, 3);
+            this.forma04.Location = new System.Drawing.Point(96, 5);
             this.forma04.Name = "forma04";
             this.forma04.Size = new System.Drawing.Size(60, 16);
             this.forma04.TabIndex = 429;
@@ -1280,7 +1236,7 @@
             this.dia04.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dia04.ForeColor = System.Drawing.Color.Black;
             this.dia04.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.dia04.Location = new System.Drawing.Point(159, 19);
+            this.dia04.Location = new System.Drawing.Point(159, 22);
             this.dia04.Name = "dia04";
             this.dia04.Size = new System.Drawing.Size(66, 16);
             this.dia04.TabIndex = 424;
@@ -1292,7 +1248,7 @@
             this.vde04.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.vde04.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vde04.ForeColor = System.Drawing.Color.Black;
-            this.vde04.Location = new System.Drawing.Point(159, 138);
+            this.vde04.Location = new System.Drawing.Point(159, 141);
             this.vde04.Name = "vde04";
             this.vde04.Size = new System.Drawing.Size(66, 16);
             this.vde04.TabIndex = 423;
@@ -1304,7 +1260,7 @@
             this.vad04.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.vad04.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vad04.ForeColor = System.Drawing.Color.Black;
-            this.vad04.Location = new System.Drawing.Point(159, 121);
+            this.vad04.Location = new System.Drawing.Point(159, 124);
             this.vad04.Name = "vad04";
             this.vad04.Size = new System.Drawing.Size(66, 16);
             this.vad04.TabIndex = 422;
@@ -1316,7 +1272,7 @@
             this.vt04.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.vt04.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vt04.ForeColor = System.Drawing.Color.Black;
-            this.vt04.Location = new System.Drawing.Point(159, 155);
+            this.vt04.Location = new System.Drawing.Point(159, 158);
             this.vt04.Name = "vt04";
             this.vt04.Size = new System.Drawing.Size(66, 16);
             this.vt04.TabIndex = 421;
@@ -1328,7 +1284,7 @@
             this.vp04.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.vp04.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vp04.ForeColor = System.Drawing.Color.Black;
-            this.vp04.Location = new System.Drawing.Point(159, 104);
+            this.vp04.Location = new System.Drawing.Point(159, 107);
             this.vp04.Name = "vp04";
             this.vp04.Size = new System.Drawing.Size(66, 16);
             this.vp04.TabIndex = 420;
@@ -1340,7 +1296,7 @@
             this.vh04.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.vh04.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vh04.ForeColor = System.Drawing.Color.Black;
-            this.vh04.Location = new System.Drawing.Point(159, 87);
+            this.vh04.Location = new System.Drawing.Point(159, 90);
             this.vh04.Name = "vh04";
             this.vh04.Size = new System.Drawing.Size(66, 16);
             this.vh04.TabIndex = 419;
@@ -1353,7 +1309,7 @@
             this.tp04.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tp04.ForeColor = System.Drawing.Color.Black;
             this.tp04.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.tp04.Location = new System.Drawing.Point(159, 70);
+            this.tp04.Location = new System.Drawing.Point(159, 73);
             this.tp04.Name = "tp04";
             this.tp04.Size = new System.Drawing.Size(66, 16);
             this.tp04.TabIndex = 418;
@@ -1365,7 +1321,7 @@
             this.hs04.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.hs04.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hs04.ForeColor = System.Drawing.Color.Black;
-            this.hs04.Location = new System.Drawing.Point(159, 53);
+            this.hs04.Location = new System.Drawing.Point(159, 56);
             this.hs04.Name = "hs04";
             this.hs04.Size = new System.Drawing.Size(66, 16);
             this.hs04.TabIndex = 417;
@@ -1377,7 +1333,7 @@
             this.he04.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.he04.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.he04.ForeColor = System.Drawing.Color.Black;
-            this.he04.Location = new System.Drawing.Point(159, 36);
+            this.he04.Location = new System.Drawing.Point(159, 39);
             this.he04.Name = "he04";
             this.he04.Size = new System.Drawing.Size(66, 16);
             this.he04.TabIndex = 416;
@@ -1389,7 +1345,7 @@
             this.fra04.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.fra04.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fra04.ForeColor = System.Drawing.Color.Black;
-            this.fra04.Location = new System.Drawing.Point(159, 2);
+            this.fra04.Location = new System.Drawing.Point(159, 5);
             this.fra04.Name = "fra04";
             this.fra04.Size = new System.Drawing.Size(66, 16);
             this.fra04.TabIndex = 415;
@@ -1401,7 +1357,7 @@
             this.Foto04.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.Foto04.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Foto04.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Foto04.Location = new System.Drawing.Point(3, 2);
+            this.Foto04.Location = new System.Drawing.Point(3, 5);
             this.Foto04.Name = "Foto04";
             this.Foto04.Size = new System.Drawing.Size(153, 169);
             this.Foto04.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1451,7 +1407,7 @@
             this.forma03.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.forma03.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.forma03.ForeColor = System.Drawing.Color.Red;
-            this.forma03.Location = new System.Drawing.Point(94, 3);
+            this.forma03.Location = new System.Drawing.Point(96, 5);
             this.forma03.Name = "forma03";
             this.forma03.Size = new System.Drawing.Size(60, 16);
             this.forma03.TabIndex = 428;
@@ -1629,14 +1585,34 @@
             this.Foto03.TabIndex = 413;
             this.Foto03.TabStop = false;
             // 
+            // ett02
+            // 
+            this.ett02.FlatAppearance.BorderSize = 0;
+            this.ett02.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(21)))), ((int)(((byte)(32)))));
+            this.ett02.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(22)))), ((int)(((byte)(34)))));
+            this.ett02.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ett02.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ett02.ForeColor = System.Drawing.Color.Gray;
+            this.ett02.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ett02.Location = new System.Drawing.Point(239, 188);
+            this.ett02.Name = "ett02";
+            this.ett02.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.ett02.Size = new System.Drawing.Size(77, 23);
+            this.ett02.TabIndex = 486;
+            this.ett02.Text = "HAB. 02";
+            this.ett02.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ett02.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.ett02.UseVisualStyleBackColor = true;
+            this.ett02.Click += new System.EventHandler(this.ett02_Click);
+            // 
             // label5
             // 
             this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Gray;
-            this.label5.Location = new System.Drawing.Point(302, 185);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.Location = new System.Drawing.Point(313, 191);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(51, 20);
+            this.label5.Size = new System.Drawing.Size(45, 17);
             this.label5.TabIndex = 485;
             this.label5.Text = "(ext. 13)";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1644,15 +1620,15 @@
             // 
             // imp02
             // 
-            this.imp02.BackColor = System.Drawing.Color.Transparent;
+            this.imp02.BackColor = System.Drawing.Color.RoyalBlue;
             this.imp02.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.imp02.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.imp02.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.imp02.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.imp02.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.imp02.ForeColor = System.Drawing.Color.White;
             this.imp02.Image = ((System.Drawing.Image)(resources.GetObject("imp02.Image")));
-            this.imp02.Location = new System.Drawing.Point(432, 184);
+            this.imp02.Location = new System.Drawing.Point(428, 188);
             this.imp02.Name = "imp02";
-            this.imp02.Size = new System.Drawing.Size(34, 21);
+            this.imp02.Size = new System.Drawing.Size(40, 22);
             this.imp02.TabIndex = 484;
             this.imp02.UseVisualStyleBackColor = false;
             this.imp02.Visible = false;
@@ -1660,11 +1636,12 @@
             // et02
             // 
             this.et02.BackColor = System.Drawing.Color.Transparent;
+            this.et02.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.et02.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.et02.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.et02.Location = new System.Drawing.Point(354, 184);
+            this.et02.Location = new System.Drawing.Point(358, 188);
             this.et02.Name = "et02";
-            this.et02.Size = new System.Drawing.Size(74, 22);
+            this.et02.Size = new System.Drawing.Size(69, 22);
             this.et02.TabIndex = 482;
             this.et02.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.et02.Visible = false;
@@ -1691,7 +1668,7 @@
             this.paHab2.Controls.Add(this.Foto02);
             this.paHab2.Location = new System.Drawing.Point(239, 6);
             this.paHab2.Name = "paHab2";
-            this.paHab2.Size = new System.Drawing.Size(229, 175);
+            this.paHab2.Size = new System.Drawing.Size(229, 180);
             this.paHab2.TabIndex = 481;
             this.paHab2.Visible = false;
             // 
@@ -1712,7 +1689,7 @@
             this.forma02.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.forma02.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.forma02.ForeColor = System.Drawing.Color.Red;
-            this.forma02.Location = new System.Drawing.Point(94, 3);
+            this.forma02.Location = new System.Drawing.Point(96, 5);
             this.forma02.Name = "forma02";
             this.forma02.Size = new System.Drawing.Size(60, 16);
             this.forma02.TabIndex = 428;
@@ -1772,7 +1749,7 @@
             this.dia02.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dia02.ForeColor = System.Drawing.Color.Black;
             this.dia02.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.dia02.Location = new System.Drawing.Point(159, 20);
+            this.dia02.Location = new System.Drawing.Point(159, 23);
             this.dia02.Name = "dia02";
             this.dia02.Size = new System.Drawing.Size(66, 16);
             this.dia02.TabIndex = 423;
@@ -1784,7 +1761,7 @@
             this.vde02.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.vde02.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vde02.ForeColor = System.Drawing.Color.Black;
-            this.vde02.Location = new System.Drawing.Point(159, 139);
+            this.vde02.Location = new System.Drawing.Point(159, 142);
             this.vde02.Name = "vde02";
             this.vde02.Size = new System.Drawing.Size(66, 16);
             this.vde02.TabIndex = 422;
@@ -1796,7 +1773,7 @@
             this.vad02.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.vad02.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vad02.ForeColor = System.Drawing.Color.Black;
-            this.vad02.Location = new System.Drawing.Point(159, 122);
+            this.vad02.Location = new System.Drawing.Point(159, 125);
             this.vad02.Name = "vad02";
             this.vad02.Size = new System.Drawing.Size(66, 16);
             this.vad02.TabIndex = 421;
@@ -1808,7 +1785,7 @@
             this.vt02.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.vt02.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vt02.ForeColor = System.Drawing.Color.Black;
-            this.vt02.Location = new System.Drawing.Point(159, 156);
+            this.vt02.Location = new System.Drawing.Point(159, 159);
             this.vt02.Name = "vt02";
             this.vt02.Size = new System.Drawing.Size(66, 16);
             this.vt02.TabIndex = 420;
@@ -1820,7 +1797,7 @@
             this.vp02.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.vp02.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vp02.ForeColor = System.Drawing.Color.Black;
-            this.vp02.Location = new System.Drawing.Point(159, 105);
+            this.vp02.Location = new System.Drawing.Point(159, 108);
             this.vp02.Name = "vp02";
             this.vp02.Size = new System.Drawing.Size(66, 16);
             this.vp02.TabIndex = 419;
@@ -1832,7 +1809,7 @@
             this.vh02.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.vh02.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vh02.ForeColor = System.Drawing.Color.Black;
-            this.vh02.Location = new System.Drawing.Point(159, 88);
+            this.vh02.Location = new System.Drawing.Point(159, 91);
             this.vh02.Name = "vh02";
             this.vh02.Size = new System.Drawing.Size(66, 16);
             this.vh02.TabIndex = 418;
@@ -1845,7 +1822,7 @@
             this.tp02.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tp02.ForeColor = System.Drawing.Color.Black;
             this.tp02.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.tp02.Location = new System.Drawing.Point(159, 71);
+            this.tp02.Location = new System.Drawing.Point(159, 74);
             this.tp02.Name = "tp02";
             this.tp02.Size = new System.Drawing.Size(66, 16);
             this.tp02.TabIndex = 417;
@@ -1857,7 +1834,7 @@
             this.hs02.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.hs02.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hs02.ForeColor = System.Drawing.Color.Black;
-            this.hs02.Location = new System.Drawing.Point(159, 54);
+            this.hs02.Location = new System.Drawing.Point(159, 57);
             this.hs02.Name = "hs02";
             this.hs02.Size = new System.Drawing.Size(66, 16);
             this.hs02.TabIndex = 416;
@@ -1869,7 +1846,7 @@
             this.he02.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.he02.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.he02.ForeColor = System.Drawing.Color.Black;
-            this.he02.Location = new System.Drawing.Point(159, 37);
+            this.he02.Location = new System.Drawing.Point(159, 40);
             this.he02.Name = "he02";
             this.he02.Size = new System.Drawing.Size(66, 16);
             this.he02.TabIndex = 415;
@@ -1881,7 +1858,7 @@
             this.fra02.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.fra02.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fra02.ForeColor = System.Drawing.Color.Black;
-            this.fra02.Location = new System.Drawing.Point(159, 3);
+            this.fra02.Location = new System.Drawing.Point(159, 6);
             this.fra02.Name = "fra02";
             this.fra02.Size = new System.Drawing.Size(66, 16);
             this.fra02.TabIndex = 414;
@@ -1893,12 +1870,32 @@
             this.Foto02.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.Foto02.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Foto02.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Foto02.Location = new System.Drawing.Point(3, 2);
+            this.Foto02.Location = new System.Drawing.Point(3, 5);
             this.Foto02.Name = "Foto02";
             this.Foto02.Size = new System.Drawing.Size(153, 169);
             this.Foto02.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Foto02.TabIndex = 413;
             this.Foto02.TabStop = false;
+            // 
+            // ett01
+            // 
+            this.ett01.FlatAppearance.BorderSize = 0;
+            this.ett01.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(21)))), ((int)(((byte)(32)))));
+            this.ett01.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(22)))), ((int)(((byte)(34)))));
+            this.ett01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ett01.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ett01.ForeColor = System.Drawing.Color.Gray;
+            this.ett01.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ett01.Location = new System.Drawing.Point(6, 188);
+            this.ett01.Name = "ett01";
+            this.ett01.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.ett01.Size = new System.Drawing.Size(77, 23);
+            this.ett01.TabIndex = 2;
+            this.ett01.Text = "HAB. 01";
+            this.ett01.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ett01.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.ett01.UseVisualStyleBackColor = true;
+            this.ett01.Click += new System.EventHandler(this.ett01_Click);
             // 
             // panel3
             // 
@@ -4844,17 +4841,29 @@
             this.Foto11.TabIndex = 416;
             this.Foto11.TabStop = false;
             // 
+            // label43
+            // 
+            this.label43.BackColor = System.Drawing.Color.Transparent;
+            this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label43.ForeColor = System.Drawing.Color.Black;
+            this.label43.Location = new System.Drawing.Point(1012, 224);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(45, 17);
+            this.label43.TabIndex = 501;
+            this.label43.Text = "(ext. 16)";
+            this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // imp05
             // 
-            this.imp05.BackColor = System.Drawing.Color.Transparent;
+            this.imp05.BackColor = System.Drawing.Color.RoyalBlue;
             this.imp05.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.imp05.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.imp05.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.imp05.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.imp05.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.imp05.ForeColor = System.Drawing.Color.White;
             this.imp05.Image = ((System.Drawing.Image)(resources.GetObject("imp05.Image")));
-            this.imp05.Location = new System.Drawing.Point(1133, 215);
+            this.imp05.Location = new System.Drawing.Point(1129, 221);
             this.imp05.Name = "imp05";
-            this.imp05.Size = new System.Drawing.Size(34, 21);
+            this.imp05.Size = new System.Drawing.Size(40, 22);
             this.imp05.TabIndex = 500;
             this.imp05.UseVisualStyleBackColor = false;
             this.imp05.Visible = false;
@@ -4862,13 +4871,28 @@
             // et05
             // 
             this.et05.BackColor = System.Drawing.Color.Transparent;
+            this.et05.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.et05.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.et05.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.et05.Location = new System.Drawing.Point(1055, 216);
+            this.et05.Location = new System.Drawing.Point(1059, 221);
             this.et05.Name = "et05";
-            this.et05.Size = new System.Drawing.Size(74, 22);
+            this.et05.Size = new System.Drawing.Size(69, 22);
             this.et05.TabIndex = 499;
             this.et05.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // ett03
+            // 
+            this.ett03.BackColor = System.Drawing.Color.Transparent;
+            this.ett03.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ett03.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ett03.ForeColor = System.Drawing.Color.Gray;
+            this.ett03.Location = new System.Drawing.Point(472, 185);
+            this.ett03.Name = "ett03";
+            this.ett03.Size = new System.Drawing.Size(63, 20);
+            this.ett03.TabIndex = 499;
+            this.ett03.Text = "HAB. 03";
+            this.ett03.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ett03.Click += new System.EventHandler(this.ett03_Click);
             // 
             // frmMenuVentas
             // 
@@ -4876,6 +4900,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(1180, 690);
+            this.Controls.Add(this.label43);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.imp05);
             this.Controls.Add(this.et05);
@@ -4962,6 +4987,7 @@
         internal System.Windows.Forms.PictureBox Foto01;
         internal System.Windows.Forms.Label et01;
         private System.Windows.Forms.Panel primeraFILA;
+        private System.Windows.Forms.Button ett01;
         private System.Windows.Forms.Panel paHab2;
         internal System.Windows.Forms.Label fmto02;
         internal System.Windows.Forms.Label forma02;
@@ -4983,6 +5009,7 @@
         internal System.Windows.Forms.Label label5;
         internal System.Windows.Forms.Button imp02;
         internal System.Windows.Forms.Label et02;
+        private System.Windows.Forms.Button ett02;
         private System.Windows.Forms.Panel paHab3;
         private System.Windows.Forms.Panel paHab4;
         private System.Windows.Forms.Panel paHab5;
@@ -5000,6 +5027,8 @@
         private System.Windows.Forms.Panel paHab12;
         private System.Windows.Forms.Panel paHab15;
         private System.Windows.Forms.Panel paHab14;
+        private System.Windows.Forms.Button ett05;
+        private System.Windows.Forms.Button ett04;
         internal System.Windows.Forms.Label fmto03;
         internal System.Windows.Forms.Label forma03;
         internal System.Windows.Forms.Label hss03;
@@ -5269,9 +5298,5 @@
         internal System.Windows.Forms.Button imp11;
         internal System.Windows.Forms.Label et11;
         internal System.Windows.Forms.Label ett03;
-        internal System.Windows.Forms.Label ett05;
-        internal System.Windows.Forms.Label ett04;
-        internal System.Windows.Forms.Label ett02;
-        internal System.Windows.Forms.Label ett01;
     }
 }
