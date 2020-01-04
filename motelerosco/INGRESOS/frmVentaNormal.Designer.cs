@@ -109,10 +109,10 @@
             this.label39 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
             this.panelOpc = new System.Windows.Forms.Panel();
+            this.panelDesc = new System.Windows.Forms.Panel();
+            this.btnDescuentos = new System.Windows.Forms.Button();
             this.panelAdic = new System.Windows.Forms.Panel();
             this.btnAdicionales = new System.Windows.Forms.Button();
-            this.btnDescuentos = new System.Windows.Forms.Button();
-            this.panelDesc = new System.Windows.Forms.Panel();
             this.groupBox6.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -1049,6 +1049,31 @@
             this.panelOpc.TabIndex = 433;
             this.panelOpc.Paint += new System.Windows.Forms.PaintEventHandler(this.panelOpc_Paint);
             // 
+            // panelDesc
+            // 
+            this.panelDesc.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelDesc.Location = new System.Drawing.Point(0, 174);
+            this.panelDesc.Name = "panelDesc";
+            this.panelDesc.Size = new System.Drawing.Size(501, 116);
+            this.panelDesc.TabIndex = 5;
+            this.panelDesc.Paint += new System.Windows.Forms.PaintEventHandler(this.panelDesc_Paint);
+            // 
+            // btnDescuentos
+            // 
+            this.btnDescuentos.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btnDescuentos.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnDescuentos.Image = ((System.Drawing.Image)(resources.GetObject("btnDescuentos.Image")));
+            this.btnDescuentos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDescuentos.Location = new System.Drawing.Point(0, 144);
+            this.btnDescuentos.Name = "btnDescuentos";
+            this.btnDescuentos.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
+            this.btnDescuentos.Size = new System.Drawing.Size(501, 30);
+            this.btnDescuentos.TabIndex = 4;
+            this.btnDescuentos.Text = "DESCUENTOS";
+            this.btnDescuentos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDescuentos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnDescuentos.UseVisualStyleBackColor = false;
+            // 
             // panelAdic
             // 
             this.panelAdic.Dock = System.Windows.Forms.DockStyle.Top;
@@ -1080,31 +1105,6 @@
             this.btnAdicionales.UseVisualStyleBackColor = false;
             this.btnAdicionales.Click += new System.EventHandler(this.btnAdicionales_Click);
             // 
-            // btnDescuentos
-            // 
-            this.btnDescuentos.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.btnDescuentos.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnDescuentos.Image = ((System.Drawing.Image)(resources.GetObject("btnDescuentos.Image")));
-            this.btnDescuentos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDescuentos.Location = new System.Drawing.Point(0, 144);
-            this.btnDescuentos.Name = "btnDescuentos";
-            this.btnDescuentos.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
-            this.btnDescuentos.Size = new System.Drawing.Size(501, 30);
-            this.btnDescuentos.TabIndex = 4;
-            this.btnDescuentos.Text = "DESCUENTOS";
-            this.btnDescuentos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDescuentos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnDescuentos.UseVisualStyleBackColor = false;
-            // 
-            // panelDesc
-            // 
-            this.panelDesc.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelDesc.Location = new System.Drawing.Point(0, 174);
-            this.panelDesc.Name = "panelDesc";
-            this.panelDesc.Size = new System.Drawing.Size(501, 116);
-            this.panelDesc.TabIndex = 5;
-            this.panelDesc.Paint += new System.Windows.Forms.PaintEventHandler(this.panelDesc_Paint);
-            // 
             // frmVentaNormal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -1125,6 +1125,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "frmVentaNormal";
             this.Text = "<< FACTURA DE VENTA  NORMAL >>";
+            this.Load += new System.EventHandler(this.frmVentaNormal_Load);
             this.groupBox6.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);

@@ -1,15 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace motelerosco.INGRESOS
+﻿namespace motelerosco.INGRESOS
 {
+    using System;
+    using System.Windows.Forms;
     public partial class frmVentaNormal : Form
     {
         public frmVentaNormal()
@@ -62,6 +54,9 @@ namespace motelerosco.INGRESOS
             panelAdic.Visible = false;
         }
 
+        private void frmVentaNormal_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 }
