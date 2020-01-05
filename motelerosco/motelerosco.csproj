@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CLASES\DetalleAdicionales.cs" />
+    <Compile Include="CLASES\DetalleAdicionalesOrigen.cs" />
+    <Compile Include="CLASES\DetalleDescuentos.cs" />
+    <Compile Include="CLASES\DetalleDescuentosOrigen.cs" />
+    <Compile Include="CLASES\DetalleKardex.cs" />
+    <Compile Include="CLASES\DetalleVenta.cs" />
     <Compile Include="CLASES\VariablesUso.cs" />
     <Compile Include="INGRESOS\frmMenuVentas.cs">
       <SubType>Form</SubType>

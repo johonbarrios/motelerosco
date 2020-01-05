@@ -1,12 +1,8 @@
-﻿using CADmotelerosco.DSmoteleroscoTableAdapters;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CADmotelerosco
+﻿namespace CADmotelerosco
 {
+    using CADmotelerosco.DSventasnormalesTableAdapters;
+    using System;
+
     public class CADventas
     {
         public int IDventa { get; set; }
@@ -29,9 +25,9 @@ namespace CADmotelerosco
         public static CADventas ConsultarVenta_x_IDventa(int IDventa)
         {
             CADventas miVenta = null;
-            DSmotelerosco.VentaDataTable miTabla = adaptador.ConsultarVenta_x_IDventa(IDventa);
+            DSventasnormales.VentaDataTable miTabla = adaptador.ConsultarVenta_x_IDventa(IDventa);
             if (miTabla.Rows.Count == 0) return miVenta;
-            DSmotelerosco.VentaRow miRegistro = (DSmotelerosco.VentaRow)miTabla.Rows[0];
+            DSventasnormales.VentaRow miRegistro = (DSventasnormales.VentaRow)miTabla.Rows[0];
             miVenta = new CADventas();
             miVenta.IDventa = miRegistro.IDventa;
             miVenta.FechaMovimiento = miRegistro.FechaMovimiento;
@@ -47,6 +43,18 @@ namespace CADmotelerosco
             miVenta.Emitido = miRegistro.Emitido;
             miVenta.Forma = miRegistro.Forma;
             return miVenta;
+        }
+
+        public static int UltimaVenta()
+        {
+            if (adaptador.UltimaVenta() == null)
+            {
+                return 0;
+            }
+            else
+            {
+                return (int)adaptador.UltimaVenta();
+            }
         }
 
 

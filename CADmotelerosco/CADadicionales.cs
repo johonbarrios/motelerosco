@@ -1,6 +1,6 @@
 ﻿namespace CADmotelerosco
 {
-    using CADmotelerosco.DSmoteleroscoTableAdapters;
+    using CADmotelerosco.DSventasnormalesTableAdapters;
     public class CADadicionales
     {
         public int IDadicionales { get; set; }
@@ -11,14 +11,13 @@
 
         private static ventaAdicionalesTableAdapter adaptador = new ventaAdicionalesTableAdapter();
 
-        /*
         public static int ConsultarCodigoAdicionales(string Detalle)
         {
             return (int)adaptador.ConsultarCodigoAdicionales(Detalle);
         }
 
 
-        public static DSzeusaplicacion.ventaAdicionalesDataTable RegistrosVentaAdicionales_IDventa(int IDventa)
+        public static DSventasnormales.ventaAdicionalesDataTable RegistrosVentaAdicionales_IDventa(int IDventa)
         {
             return adaptador.RegistrosVentaAdicionales_IDventa(IDventa);
         }
@@ -36,7 +35,6 @@
         {
             adaptador.InsertarAdicionales(IDadicionales, IDventa, Detalle, Importe);
         }
-        */
 
 
         public static int UltimaVentaAdicional()

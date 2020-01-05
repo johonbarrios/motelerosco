@@ -1,12 +1,10 @@
-﻿using CADmotelerosco.DSmoteleroscoTableAdapters;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace CADmotelerosco
 {
+    using CADmotelerosco.DSventasnormalesTableAdapters;
+    using System;
+    using System.Linq;
+
     public class CADhospedajes
     {
         public int IDhospedaje { get; set; }
@@ -23,9 +21,9 @@ namespace CADmotelerosco
         public static CADhospedajes ConsultarVentaHospedaje_IDventa(int IDventa)
         {
             CADhospedajes miVentaHospedaje = null;
-            DSmotelerosco.ventaHospedajeDataTable miTabla = adaptador.ConsultarVentaHospedaje_IDventa(IDventa);
+            DSventasnormales.ventaHospedajeDataTable miTabla = adaptador.ConsultarVentaHospedaje_IDventa(IDventa);
             if (miTabla.Rows.Count == 0) return miVentaHospedaje;
-            DSmotelerosco.ventaHospedajeRow miRegistro = (DSmotelerosco.ventaHospedajeRow)miTabla.Rows[0];
+            DSventasnormales.ventaHospedajeRow miRegistro = (DSventasnormales.ventaHospedajeRow)miTabla.Rows[0];
             miVentaHospedaje = new CADhospedajes();
             miVentaHospedaje.IDhospedaje = miRegistro.IDhospedaje;
             miVentaHospedaje.IDventa = miRegistro.IDventa;

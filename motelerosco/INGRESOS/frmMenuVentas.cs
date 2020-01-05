@@ -2,16 +2,15 @@
 
 namespace motelerosco.INGRESOS
 {
-    using System;
-    using System.Windows.Forms;
-    using System.Data.SqlClient;
-    using System.Drawing;
-    using System.Data;
-    using System.IO;
     using CADmotelerosco;
     using motelerosco.CLASES;
-    using motelerosco.INGRESOS;
-   
+    using System;
+    using System.Data;
+    using System.Data.SqlClient;
+    using System.Drawing;
+    using System.IO;
+    using System.Windows.Forms;
+
 
     public partial class frmMenuVentas : Form
     {

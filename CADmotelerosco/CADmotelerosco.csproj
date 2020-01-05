@@ -41,9 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CADadicionales.cs" />
     <Compile Include="CADclientes.cs" />
+    <Compile Include="CADdescuentos.cs" />
     <Compile Include="CADestadohab.cs" />
     <Compile Include="CADhospedajes.cs" />
+    <Compile Include="CADproducto.cs" />
     <Compile Include="CADrecordarme.cs" />
     <Compile Include="CADusuario.cs" />
     <Compile Include="CADventas.cs" />
@@ -51,6 +54,14 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DSmotelerosco.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSproductos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSproductos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSventasnormales.cs">
+      <DependentUpon>DSventasnormales.xsd</DependentUpon>
     </Compile>
     <Compile Include="DSventasnormales.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -76,6 +87,17 @@
     </None>
     <None Include="DSmotelerosco.xss">
       <DependentUpon>DSmotelerosco.xsd</DependentUpon>
+    </None>
+    <None Include="DSproductos.xsc">
+      <DependentUpon>DSproductos.xsd</DependentUpon>
+    </None>
+    <None Include="DSproductos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSproductos.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSproductos.xss">
+      <DependentUpon>DSproductos.xsd</DependentUpon>
     </None>
     <None Include="DSventasnormales.xsc">
       <DependentUpon>DSventasnormales.xsd</DependentUpon>

@@ -1,6 +1,6 @@
 ﻿namespace CADmotelerosco
 {
-    using CADmotelerosco.DSmoteleroscoTableAdapters;
+    using CADmotelerosco.DSventasnormalesTableAdapters;
     public class CADdescuentos
     {
         public int IDdescuentos { get; set; }
@@ -11,29 +11,16 @@
         private static ventaDescuentosTableAdapter adaptador = new ventaDescuentosTableAdapter();
 
 
-        public static int UltimaVentaDescuento()
-        {
-            if (adaptador.UltimaVentaDescuento() == null)
-            {
-                return 0;
-            }
-            else
-            {
-                return (int)adaptador.UltimaVentaDescuento();
-            }
-        }
-
-        /*
-        public static DSzeusaplicacion.ventaDescuentosDataTable RegistrosVentaDescuentos_IDventa(int IDventa)
+        public static DSventasnormales.ventaDescuentosDataTable RegistrosVentaDescuentos_IDventa(int IDventa)
         {
             return adaptador.RegistrosVentaDescuentos_IDventa(IDventa);
         }
 
         // metodo que nos permite insertar registros en - VentaDescuentos
-        public static void InsertarDescuentos(int IdDescuento, int IDventa, string Detalle, decimal Importe)
-        {
-            adaptador.InsertarDescuentos(IdDescuento, IDventa, Detalle, Importe);
-        }
+        //public static void InsertarDescuentos(int IdDescuento, int IDventa, string Detalle, decimal Importe)
+        //{
+        //    adaptador.InsertarDescuentos(IdDescuento, IDventa, Detalle, Importe);
+        //}
 
         //método eliminar registros de ventaDescuentos
         public static void EliminarVentaDescuentos_IDdescuentos(int IDdescuentos)
@@ -47,7 +34,17 @@
             adaptador.InsertarVentaDescuento(IdDescuentos, IDventa, Detalle, Importe);
         }
 
-        
-        */
+        public static int UltimaVentaDescuento()
+        {
+            if (adaptador.UltimaVentaDescuento() == null)
+            {
+                return 0;
+            }
+            else
+            {
+                return (int)adaptador.UltimaVentaDescuento();
+            }
+        }
+
     }
 }
